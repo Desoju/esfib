@@ -1,5 +1,6 @@
 import "./style.scss";
 import { Kontakt } from "../Kontakt";
+import { ONas } from "../ONas";
 
 export const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ export const MainPage = () => {
       </header>
       <main>
         <p>toto je stránka esfib</p>
+        <ONas />
         <Kontakt />
       </main>
       <footer>

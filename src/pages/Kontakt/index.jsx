@@ -8,9 +8,10 @@ export const Kontakt = () => {
       <h3>Kontaktní údaje</h3>
       <p>ESFIB, Ing. Zdeněk Des</p>
       <img src={email} alt="emial" className="image" />
-      <p>zdenek.des@esfib.cz</p>
+      <p className="picture">zdenek.des@esfib.cz</p>
+      <br />
       <img src={phone} alt="phone" className="image" />
-      <p>+420 777 62 12 55</p>
+      <p className="picture">+420 777 62 12 55</p>
       <p>Datová schránka : mdk2rk</p>
       <p>IČO : 7548799</p>
       <p>Sídlo:</p>
