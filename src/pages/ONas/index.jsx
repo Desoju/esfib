@@ -2,7 +2,7 @@ import "./style.scss";
 
 export const ONas = () => {
   return (
-    <div className="onas">
+    <div className="o_nas">
       <p>
         Jsme projekční kancelář, která se zabývá komplexní činností projektování
         pozemních staveb. V projektování staveb máme více než 20 let zkušeností

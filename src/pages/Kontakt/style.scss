@@ -1,10 +1,26 @@
-.image{
-  width: 20px;
-  display: inline;
-  margin-right: 10px;
-}
+@import "./../../global.scss";
 
 
-.picture{
-  display: inline;
+.kontakt{
+
+  .image{
+    width: 20px;
+    display: inline;
+    margin-right: 10px;
+  }
+  @media (max-width: $breakpoint-small) {
+
+  }
+
+  @media (min-width: $breakpoint-small){
+  }
+
+  @media (min-width: $breakpoint-big){
+
+    .picture{
+      display: inline;
+    }
+
+
+  }
 }

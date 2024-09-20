@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import { MainPage } from './pages/MainPage';
-import './global.css';
+import "./global.scss";
 
 createRoot(
   document.querySelector('#app'),

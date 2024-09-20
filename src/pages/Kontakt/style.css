@@ -9,4 +9,15 @@ html {
 
 h3 {
   text-transform: uppercase;
-}/*# sourceMappingURL=global.css.map */
+}
+
+.kontakt .image {
+  width: 20px;
+  display: inline;
+  margin-right: 10px;
+}
+@media (min-width: 900px) {
+  .kontakt .picture {
+    display: inline;
+  }
+}/*# sourceMappingURL=style.css.map */
