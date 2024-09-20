@@ -9,14 +9,12 @@ export const MainPage = () => {
   return (
     <div className="container">
       <div className="menu">
-        <img src={Logo} alt="bílé logo Esfib" className="logo"/>
-        <nav className="navbar">
-          <ul>
-            <li><a href="#o_nas">O NÁS</a></li>
-            <li><a href="#reference">REFERENCE</a></li>
-            <li><a href="#Kontakt">KONTAKT</a></li>
+        <img src={Logo} alt="bílé logo Esfib" className="menu__logo"/>
+          <ul className="menu__polozky">
+            <li><a className="menu__polozky__polozka" href="#o_nas">O NÁS</a></li>
+            <li><a className="menu__polozky__polozka" href="#reference">REFERENCE</a></li>
+            <li><a className="menu__polozky__polozka" href="#Kontakt">KONTAKT</a></li>
           </ul>
-        </nav>
       </div>
       <div className="main">
         <ONas id="o_nas" />

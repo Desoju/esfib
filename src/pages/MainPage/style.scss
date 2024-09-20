@@ -1,9 +1,28 @@
-@import "./../../global.scss";
-
+$breakpoint-small: 576px; // For phones
+$breakpoint-big: 900px; // For tablets, laptops and bigger
 .container {
   .menu {
     display: flex;
     background-color: #434342;
+    justify-content: space-evenly;
+
+    &__polozky{
+      display: flex;
+      list-style-type: none;
+      padding: 45px;
+      margin: 0;
+
+      &__polozka{
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+    }
+
+    &__logo{
+      margin: 20px;
+      width: 300px;
+    }
   }
 
   footer {
@@ -16,8 +35,5 @@
   }
 
   @media (min-width: $breakpoint-big) {
-    .logo{
-      width: 300px;
-  }
   }
 }
